@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Exo 2.0 Thin";
+    font-style: normal;
+    /* font-weight: 100; */
+    src: local("Exo 2.0 Thin"), url(./assets/fonts/Exo2.0-Thin.otf), format("otf");
+}
