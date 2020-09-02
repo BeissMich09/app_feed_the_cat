@@ -107,7 +107,7 @@
     overflow: hidden;
     clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 0 9%);
     border: solid #d91667 4px;
-    border-radius: 13px;
+    border-radius: 9px;
 }
 
 .disabledElement .ball,
@@ -154,6 +154,103 @@
 .unHoverBasket .withoutFog .ball,
 .unHoverBasket .withoutFog .triangle {
     background-color: #e62e7a;
+}
+
+@media (max-width: 1125px) {
+    .triangle {
+        left: -47px;
+    }
+    .item img {
+        width: 295px;
+        margin-top: 16px;
+        margin-left: -19px;
+    }
+    .item {
+        width: 269px;
+        height: 408px;
+    }
+    .contentItem {
+        width: 277px;
+        height: 477px;
+    }
+    .ball {
+        width: 80px;
+        height: 80px;
+    }
+    .ball p {
+        font-size: 35px;
+        line-height: 27px;
+    }
+    .textBall p:last-child {
+        font-size: 20px;
+    }
+    .undergroundText p {
+        height: 35px;
+    }
+    .inBasket {
+        width: 277px;
+        height: 475px;
+    }
+}
+
+@media (max-width: 675px) {
+    .contentItem {
+        height: 477px;
+    }
+    .inBasket {
+        height: 477px;
+    }
+}
+
+@media (max-width: 350px) {
+    .item {
+        width: 204px;
+        height: 345px;
+    }
+    .item img {
+        width: 215px;
+    }
+    .text {
+        margin-left: 15px;
+    }
+    .text h3 {
+        font-size: 35px;
+    }
+    .text h4 {
+        font-size: 20px;
+    }
+    .ball {
+        height: 70px;
+        width: 70px;
+    }
+    .textBall p:first-child {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .withoutFog {
+        clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+    }
+    .triangle {
+        left: -57px;
+    }
+    .undergroundText {
+        width: 210px;
+    }
+    .inBasket,
+    .contentItem {
+        width: 212px;
+        height: 400px;
+    }
+    .inBasket .withoutFog {
+        width: 204px;
+        clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+    }
+    .withFog {
+        clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
+    }
+    /* .contentItem .withFog {
+        width: 208px;
+    } */
 }
 
 

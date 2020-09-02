@@ -2,5 +2,10 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 1125px) {
+    .item {
+        flex-wrap: wrap;
+    }
 }
