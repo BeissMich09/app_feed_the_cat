@@ -10,6 +10,10 @@ const Content = (props) => {
       portion={catFood.portion}
       gift={catFood.gift}
       weight={catFood.weight}
+      description={catFood.description}
+      disabledFood={catFood.disabledFood}
+      presence={catFood.presence}
+      key={catFood.id}
     />
   ));
   return <div className={style.item}>{cat}</div>;

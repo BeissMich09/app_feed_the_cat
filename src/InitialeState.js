@@ -5,8 +5,9 @@ let catFood = [
     portion: 10,
     gift: "мышь в подарок",
     weight: "0,5",
+    description: "Печень утки разварная с артишоками.",
+    disabledFood: "Печалька, с фуа-гра закончился.",
     presence: true,
-    basket: false,
   },
   {
     id: 2,
@@ -14,8 +15,9 @@ let catFood = [
     portion: 40,
     gift: "2 мыши в подарок",
     weight: "2",
+    description: "Головы щучьи с чесноком да свежайшая сёмгушка.",
+    disabledFood: "Печалька, с рыбой закончился.",
     presence: true,
-    basket: false,
   },
   {
     id: 3,
@@ -23,8 +25,9 @@ let catFood = [
     portion: 100,
     gift: "10 мышей в подарок",
     weight: "5",
-    presence: true,
-    basket: false,
+    description: "Филе из цыплят с трюфелями в бульоне.",
+    disabledFood: "Печалька, с курой закончился.",
+    presence: false,
   },
 ];
 
