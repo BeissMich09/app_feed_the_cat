@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/app-feed-the-cat/static/css/main.4e3493e1.chunk.css",
+    "main.css": "/app-feed-the-cat/static/css/main.9922f99d.chunk.css",
     "main.js": "/app-feed-the-cat/static/js/main.5e695c2f.chunk.js",
     "main.js.map": "/app-feed-the-cat/static/js/main.5e695c2f.chunk.js.map",
     "runtime-main.js": "/app-feed-the-cat/static/js/runtime-main.1dc64b50.js",
@@ -8,9 +8,9 @@
     "static/js/2.92e60d9d.chunk.js": "/app-feed-the-cat/static/js/2.92e60d9d.chunk.js",
     "static/js/2.92e60d9d.chunk.js.map": "/app-feed-the-cat/static/js/2.92e60d9d.chunk.js.map",
     "index.html": "/app-feed-the-cat/index.html",
-    "precache-manifest.4c599715cb43c14066acf36bec552b77.js": "/app-feed-the-cat/precache-manifest.4c599715cb43c14066acf36bec552b77.js",
+    "precache-manifest.aa900a751b298e99b890092c7650bc3b.js": "/app-feed-the-cat/precache-manifest.aa900a751b298e99b890092c7650bc3b.js",
     "service-worker.js": "/app-feed-the-cat/service-worker.js",
-    "static/css/main.4e3493e1.chunk.css.map": "/app-feed-the-cat/static/css/main.4e3493e1.chunk.css.map",
+    "static/css/main.9922f99d.chunk.css.map": "/app-feed-the-cat/static/css/main.9922f99d.chunk.css.map",
     "static/js/2.92e60d9d.chunk.js.LICENSE.txt": "/app-feed-the-cat/static/js/2.92e60d9d.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/app-feed-the-cat/static/media/Exo2.0-Thin.44bde874.otf",
     "static/media/cat.png": "/app-feed-the-cat/static/media/cat.8c1310d7.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.1dc64b50.js",
     "static/js/2.92e60d9d.chunk.js",
-    "static/css/main.4e3493e1.chunk.css",
+    "static/css/main.9922f99d.chunk.css",
     "static/js/main.5e695c2f.chunk.js"
   ]
 }
