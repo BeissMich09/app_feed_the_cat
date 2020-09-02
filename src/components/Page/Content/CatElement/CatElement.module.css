@@ -156,6 +156,14 @@
     background-color: #e62e7a;
 }
 
+@-moz-document url-prefix() {
+    .item img {
+        margin-top: 22px;
+        margin-left: -19px;
+        width: 414px;
+    }
+}
+
 @media (max-width: 1125px) {
     .triangle {
         left: -47px;
@@ -248,19 +256,4 @@
     .withFog {
         clip-path: polygon(13% 0, 100% 0, 100% 100%, 0 100%, 0 8%);
     }
-    /* .contentItem .withFog {
-        width: 208px;
-    } */
 }
-
-
-/* @-moz-document url-prefix() {
-    .item {
-        height: 570px;
-    }
-    .contentItem {
-        width: 328px;
-        height: 540px;
-        overflow: hidden;
-    }
-} */
