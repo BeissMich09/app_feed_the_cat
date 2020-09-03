@@ -29,11 +29,11 @@
 
 .triangle {
     width: 153px;
-    height: 4px;
+    height: 5px;
     background-color: #1698d9;
     position: absolute;
     transform: rotate(134deg);
-    left: -41px;
+    left: -42px;
     top: 0px;
 }
 
